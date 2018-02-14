@@ -1,3 +1,8 @@
+html, 
+body {
+  height: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #EBF7DA;
@@ -11,11 +16,13 @@ header {
 }
 
 .left-sidebar {
-  position: absolute;
+  display:inline-block;
   left: 0;
-  width: 255px;
+  min-width: 225px;
+  width: 25%;
   background-color: #AFDAD9;
   height: 100%;
+  
 }
 
 .icon-logo {
@@ -127,15 +134,19 @@ nav li{
   background-image: url(./assets/nutrition-icon-hover.png);
   background-color: #6FA0A0;
 }
-  padding: 20px 0 20px 30px;
-}
+  
 
 .dashboard,
 .news-feed {
-  position: absolute;
-  right: 0;
-  width: 80vw;
   text-align: center;
+  display: inline-block;
+  width: 74%;
+  vertical-align: top;
+}
+
+.news-feed h1{
+  font-size: 30px;
+  color: #819d9e;
 }
 
 .center,
@@ -152,7 +163,7 @@ nav li{
 }
 
 .three-four,
-calories {
+.cal-count {
   color: #819d9e;
 }
 
@@ -170,17 +181,41 @@ hr {
   display: block;
   width: 90%;
   color: red;
-}
-
-.news-feed {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+  margin: 20px 0;
 }
 
 .news-feed img {
   width: 30px;
   height: 30px;
+  margin-right: 20px;
 }
 
+.commentor {
+width: 400px;
+text-align: left;
+margin: auto auto 20px auto;
+}
+
+.commentee {
+  width: 325px;
+  text-align: left;
+  margin: 15px auto;
+}
+
+@media screen and (max-width: 360px) {
+  .left-sidebar {
+    display: block;
+    width: 100%;
+  }
+  .icon-logo{
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+  .search-input {
+    display: none;
+  }
+}
 
