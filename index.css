@@ -202,10 +202,11 @@ margin: auto auto 20px auto;
   margin: 15px auto;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   .left-sidebar {
     display: block;
     width: 100%;
+    height: 100px;
   }
   .icon-logo{
     display: none;
@@ -216,6 +217,33 @@ margin: auto auto 20px auto;
 
   .search-input {
     display: none;
+  }
+
+  .picture-welcome {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    height: 40px;
+  }
+
+  .pie-chart {
+    height: 120px;
+    width: auto;
+  }
+
+  header {
+    justify-content: normal;
+    min-width: auto;
+  }
+
+  .center{
+    display: block;
+    width: 200px;
+    margin: 31px 0 0 0;
+  }
+  .right {
+    display: none;
+    width: 300px;
   }
 }
 
