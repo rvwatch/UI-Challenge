@@ -1,3 +1,79 @@
 body {
-  background-color: blue
+  font-family: 'Open Sans', sans-serif;
+}
+
+.left-sidebar {
+  position: absolute;
+  left: 0;
+  width: 255px;
+  background-color: #AFDAD9;
+  height: 100%;
+}
+
+.icon-logo {
+  width: 200px;
+  margin: 20px auto auto auto;
+  display: block;
+}
+
+.search-input {
+  margin: 30px 0 0 20px;
+  height: 25px;
+  font-size: 18px;
+}
+
+nav {
+  margin: 43px 0 0 0;
+}
+
+
+
+.feed {
+  background-image: url(./assets/feed-icon.png);
+  background-size: 41px;
+  background-position: 16px 0;
+  background-repeat: no-repeat;
+  padding: 10px 0 10px 78px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  display: block;
+}
+
+.feed:hover {
+  background-image: url(./assets/feed-icon-hover.png);
+  background-color: #6FA0A0;
+}
+
+.exercise {
+  background-image: url(./assets/feed-icon.png);
+  background-size: 41px;
+  background-position: 16px 0;
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 30px;
+  display: block;
+}
+
+.calendar {
+  background-image: url(./assets/feed-icon.png);
+  background-size: 41px;
+  background-position: 16px 0;
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 30px;
+}
+
+.calories {
+  background-image: url(./assets/feed-icon.png);
+  background-size: 41px;
+  background-position: 16px 0;
+  background-repeat: no-repeat;
+  padding: 15px 0 10px 65px;
+}
+
+.nutrition {
+  background-image: url(./assets/feed-icon.png);
+  background-size: 41px;
+  background-position: 16px 0;
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 30px;
 }

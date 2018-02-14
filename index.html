@@ -4,18 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./reset.css" >
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  
   <title></title>
 </head>
 <body>
-  <section>
-    <article class="left-sidebar">
-      <img alt="icon-logo" src="./assets/icon.png" />
-      <input type="text" placeholder="Search" />
+
+  <section class="left-sidebar">
+      <img class="icon-logo" alt="icon-logo" src="./assets/icon.png" />
+      <input class="search-input" type="text" placeholder="Search" />
       <nav>
-        
+        <ul>
+          <li><a class="feed" href='#'>Feed</a></li>
+          <li><a class="exercise" href='#'>Exercise</a></li>
+          <li><a class="calendar" href='#'>Calendar</a></li>
+          <li><a class="calories" href='#'>Calories</a></li>
+          <li><a class="nutrition" href='#'>Nutrition</a></li>
+        </ul>
       </nav>
+  </section>
+  <section class="dashboard">
+    <article class="stats">
+
     </article>
+
   </section>
 </body>
 </html>
