@@ -1,6 +1,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #EBF7DA;
+  background-color: #f0f4dd
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  min-width: 700px;
 }
 
 .left-sidebar {
@@ -120,3 +127,48 @@ nav li{
   background-image: url(./assets/nutrition-icon-hover.png);
   background-color: #6FA0A0;
 }
+  padding: 20px 0 20px 30px;
+}
+
+.dashboard {
+  position: absolute;
+  right: 0;
+  width: 80vw;
+  text-align: center;
+}
+
+.center,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.pie-chart {
+  height: 200px;
+  width: 200px;
+}
+
+.three-four,
+calories {
+  color: #819d9e;
+}
+
+.right div img {
+  width: 50px;
+  height: 60px;
+}
+
+.picture-welcome  {
+  display: flex;
+  flex-direction: row;
+}
+
+hr {
+  display: block;
+  width: 90%;
+  color: red;
+}
+
+
