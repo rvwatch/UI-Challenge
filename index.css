@@ -130,7 +130,8 @@ nav li{
   padding: 20px 0 20px 30px;
 }
 
-.dashboard {
+.dashboard,
+.news-feed {
   position: absolute;
   right: 0;
   width: 80vw;
@@ -169,6 +170,17 @@ hr {
   display: block;
   width: 90%;
   color: red;
+}
+
+.news-feed {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.news-feed img {
+  width: 30px;
+  height: 30px;
 }
 
 
